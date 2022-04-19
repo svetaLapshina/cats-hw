@@ -1,4 +1,10 @@
 public class Cat {
+    private String id;
+    private String text;
+    private String type;
+    private String user;
+    private Integer upvotes;
+
     public String getId() {
         return id;
     }
@@ -49,10 +55,4 @@ public class Cat {
                 ", upvotes=" + upvotes +
                 '}';
     }
-
-    private String id;
-    private String text;
-    private String type;
-    private String user;
-    private Integer upvotes;
 }

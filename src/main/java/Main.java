@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.util.List;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create()
                 .setDefaultRequestConfig(RequestConfig.custom()
